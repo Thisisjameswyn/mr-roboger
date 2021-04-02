@@ -1,7 +1,9 @@
 function storyTime(userNum) {
   let storyArray = [];
   for(let i = 0; i <= userNum; i++) {
-    if(i.toString().includes("1")) {
+    if(i>toString().includes("2")) {
+      storyArray.push("Boop!");
+    } else if(i.toString().includes("1")) {
       storyArray.push("Beep!");
     } else {
       storyArray.push(i.toString());
