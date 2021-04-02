@@ -13,3 +13,4 @@ function storyTime(userNum) {
   }
   return storyArray;
 }
+
