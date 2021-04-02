@@ -7,3 +7,7 @@ Expected Output: ["0"]
 Test: "It should return an array with a "0", "Beep!" if the number 1 is inputted"
 Code: storyTime(1)
 Expected Output: ["0", "Beep!"]
+
+Test: "It should return an array with a "0", "Beep!", "Boop!" if the number 2 is inputted"
+Code: storyTime(2)
+Expected Output: ["0", "Beep!", "Boop!"]
