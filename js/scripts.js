@@ -14,3 +14,14 @@ function storyTime(userNum) {
   return storyArray;
 }
 
+$(document).ready(function() {
+  $("form#numberEntry").submit(function(event) {
+    event.preventDefault();
+    $("#outputText").text(storyTime($("#number").val()).join(" "));
+  })
+
+  $("form#reset").submit(function(event) {
+    location.reload();
+    event.preventDefault();
+  });
+});

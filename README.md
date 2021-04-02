@@ -10,7 +10,6 @@ This is my third week project for Epicodus.  The objective is to take an input o
 * Bootstrap
 * JavaScript
 * jQuery
-* JSON
 * HTML
 * CSS
 * MD
@@ -23,7 +22,7 @@ This is my third week project for Epicodus.  The objective is to take an input o
 * Initilize git
 * Add remote repository to new git
 
-### With Github
+### With Github:
 * Press use this template
 * Create new repo
 * Clone new repo down to
