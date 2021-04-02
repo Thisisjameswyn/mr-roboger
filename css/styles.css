@@ -1,0 +1,15 @@
+body {
+  padding: 20px;
+}
+
+.btn-group {
+  display: block;
+  padding: 10px;
+}
+
+.welcome {
+  /* font-family: 'Alegreya', serif; */
+  font-family: 'Coustard', serif;
+  /* font-family: 'Neuton', serif; */
+}
+
