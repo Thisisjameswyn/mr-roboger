@@ -18,8 +18,10 @@ $(document).ready(function() {
   $("form#numberEntry").submit(function(event) {
     event.preventDefault();
     if($("#number").val() === "") {
+      $("#outputArea").show();
       $("#outputText").text("Please enter a number to hear an amazing story");
     } else {
+      $("#outputArea").show();
       $("#outputText").text(storyTime($("#number").val()).join(" "));
     }
   })

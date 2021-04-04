@@ -16,22 +16,23 @@
   <div class="container">
     <div class="welcome">
       <h2>Welcome Neighbor Unit!</h2>
+      <form id="numberEntry">
+        <div class="form-group">
+          <label for="number">Hello neighbor user, it's great to interface with you today.  Why don't you insert a number and let this unit report a story?</label>
+          <input id="number" class="form-control" type="number">
+        </div>
+        <div class="btn-group">
+          <button type="submit" class="btn-dark">Display narrative</button>
+        </div>
+      </form>
+      <form id="reset">
+        <div class="btn-group">
+          <button type="submit" class="btn-dark">ERROR ERROR RESET</button>
+        </div>
+      </form>
     </div>
-    <form id="numberEntry">
-      <div class="form-group">
-        <label for="number">Hello neighbor user, it's great to interface with you today.  Why don't you insert a number and let this unit report a story?</label>
-        <input id="number" class="form-control" type="number">
-      </div>
-      <div class="btn-group">
-        <button type="submit" class="btn-dark">Display narrative</button>
-      </div>
-    </form>
-    <form id="reset">
-      <div class="btn-group">
-        <button type="submit" class="btn-dark">ERROR ERROR RESET</button>
-      </div>
-    </form>
     <div id="outputArea">
+      <img src="img/mrRoboger.png" alt="Girl in a jacket"> 
       <p id="outputText"></p><br>
     </div>
   </div>

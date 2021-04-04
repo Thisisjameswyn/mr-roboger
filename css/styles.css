@@ -8,13 +8,14 @@
   font-family: 'Coustard', serif;
 }
 
-
 #outputArea {
   width: 100%;
   color: black;
-  /* overflow: hidden; */
+  overflow: hidden;
   box-sizing: border-box;
+  display: none;
 }
+
 #outputArea p {
   width: 100%;
   font-family: 'Coustard', serif;
@@ -27,4 +28,10 @@
   0%   { transform: translate(0, 100%); }
   100% { transform: translate(0, -100%); }
 }
+
+#number {
+  width: 20%;
+}
+
+
 
