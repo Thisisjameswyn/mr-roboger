@@ -9,20 +9,23 @@
 }
 
 #outputArea {
+  background-image: url(/img/mrRoboger.png);
   width: 100%;
-  color: black;
-  overflow: hidden;
-  box-sizing: border-box;
+  color: white;
+  /* overflow: visible; */
+  box-sizing: content-box;
   display: none;
+  background-size:100%;
 }
 
 #outputArea p {
+  text-align: center;
   width: 100%;
   font-family: 'Coustard', serif;
-  font-size: 70px;
-  text-align: center;
+  font-size: 50px;
   overflow: hidden;
-  animation: marquee 15s linear infinite;
+  animation: marquee 10s linear infinite;
+  height: 750px;
 }
 @keyframes marquee {
   0%   { transform: translate(0, 100%); }
