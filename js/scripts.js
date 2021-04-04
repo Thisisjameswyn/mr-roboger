@@ -17,7 +17,11 @@ function storyTime(userNum) {
 $(document).ready(function() {
   $("form#numberEntry").submit(function(event) {
     event.preventDefault();
-    $("#outputText").text(storyTime($("#number").val()).join(" "));
+    if($("#number").val() === "") {
+      $("#outputText").text("Please enter a number to hear an amazing story");
+    } else {
+      $("#outputText").text(storyTime($("#number").val()).join(" "));
+    }
   })
 
   $("form#reset").submit(function(event) {

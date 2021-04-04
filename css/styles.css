@@ -12,7 +12,7 @@
 #outputArea {
   width: 100%;
   color: black;
-  overflow: hidden;
+  /* overflow: hidden; */
   box-sizing: border-box;
 }
 #outputArea p {
@@ -20,6 +20,7 @@
   font-family: 'Coustard', serif;
   font-size: 70px;
   text-align: center;
+  overflow: hidden;
   animation: marquee 15s linear infinite;
 }
 @keyframes marquee {
