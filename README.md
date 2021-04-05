@@ -20,12 +20,14 @@ This is my third week project for Epicodus.  The objective is to take an input o
 * Clone Repo
 * Delete .git if needing a clean commit history
 * Initilize git
-* Add remote repository to new git
+* Add remote repository to new git environment
+* Open and launch in VS Code
 
 ### With Github:
 * Press use this template
 * Create new repo
-* Clone new repo down to
+* Clone new repo down to your working environment
+* Open and launch in VS Code
 
 * * *
 
