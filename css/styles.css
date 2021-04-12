@@ -9,13 +9,13 @@
 }
 
 #outputArea {
-  background-image: url(/img/mrRoboger.png);
+  background-image: url(../img/mrRoboger.png);
   width: 100%;
   color: white;
-  /* overflow: visible; */
   box-sizing: content-box;
   display: none;
   background-size:100%;
+  overflow: hidden;
 }
 
 #outputArea p {
@@ -23,17 +23,20 @@
   width: 100%;
   font-family: 'Coustard', serif;
   font-size: 50px;
-  overflow: hidden;
-  animation: marquee 10s linear infinite;
-  height: 750px;
+  animation: myAnimation 10s linear infinite;
 }
-@keyframes marquee {
+
+@keyframes myAnimation {
   0%   { transform: translate(0, 100%); }
-  100% { transform: translate(0, -100%); }
+  100% { transform: translate(0, -100%); }                   
 }
 
 #number {
   width: 20%;
+}
+
+.btn-group {
+  z-index: 1;
 }
 
 
